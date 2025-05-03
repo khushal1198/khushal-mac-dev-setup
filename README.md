@@ -74,6 +74,32 @@ brew install --cask iterm2
 1. Download Cursor from [https://cursor.sh](https://cursor.sh)
 2. Install and set up with your preferred settings
 
+## Development Tools
+
+### 1. Python 3.11
+Install Python 3.11 using Homebrew:
+```bash
+brew install python@3.11
+```
+
+After installation:
+- Python 3.11 will be available as `python3.11`
+- Pip will be available as `pip3.11`
+- Packages will be installed in `/usr/local/lib/python3.11/site-packages`
+
+### 2. Bazel 8
+Install Bazelisk (Bazel version manager):
+```bash
+brew install bazelisk
+```
+
+Bazelisk will automatically download and use the latest stable version of Bazel (currently 8.2.1). If you need a specific version, you can:
+1. Create a `.bazelversion` file in your project:
+```bash
+echo "8.2.1" > .bazelversion
+```
+2. Run Bazel commands normally - Bazelisk will manage the version for you
+
 ## Setup Sections
 
 (More sections will be added as configurations are implemented)
