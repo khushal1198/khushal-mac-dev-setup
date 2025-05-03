@@ -1,4 +1,4 @@
-# khushal-mac-setup
+# khushal-mac-dev-setup
 
 This repository contains my personal MacOS setup and configuration files. It includes scripts and documentation for setting up a new Mac with my preferred tools, applications, and settings.
 
@@ -20,8 +20,8 @@ This repository contains my personal MacOS setup and configuration files. It inc
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/khushal1198/khushal-mac-setup.git
-cd khushal-mac-setup
+git clone https://github.com/khushal1198/khushal-mac-dev-setup.git
+cd khushal-mac-dev-setup
 ```
 
 2. Follow the setup instructions in each section below.
