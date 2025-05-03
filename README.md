@@ -100,6 +100,20 @@ echo "8.2.1" > .bazelversion
 ```
 2. Run Bazel commands normally - Bazelisk will manage the version for you
 
+If `bazel` command is not found after installation, fix it by:
+```bash
+rm /usr/local/bin/bazel && ln -s $(which bazelisk) /usr/local/bin/bazel
+```
+
+If you're still having issues with the `bazel` command not being found, ensure your PATH is properly configured in your `.zshrc`:
+```bash
+# Add this line to your ~/.zshrc if it's not already there
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:/opt/homebrew/bin:$PATH
+
+# Then reload your shell configuration
+source ~/.zshrc
+```
+
 ## Setup Sections
 
 (More sections will be added as configurations are implemented)
