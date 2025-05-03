@@ -26,9 +26,57 @@ cd khushal-mac-setup
 
 2. Follow the setup instructions in each section below.
 
+## Essential Applications
+
+### 1. Google Chrome
+1. Download Chrome from [https://www.google.com/chrome](https://www.google.com/chrome)
+2. Install and set as default browser
+
+### 2. 1Password
+1. Download 1Password from [https://1password.com/downloads/mac](https://1password.com/downloads/mac)
+2. Sign in with existing account to restore passwords
+
+### 3. Homebrew
+Install Homebrew (macOS package manager):
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+After installation, follow the instructions in the terminal to add Homebrew to your PATH.
+
+### 4. Git
+Install Git using Homebrew:
+```bash
+brew install git
+```
+
+Configure Git:
+```bash
+git config --global user.name "khushal1198"
+git config --global user.email "khushal.pujara@yahoo.com"
+```
+
+Restore GitHub SSH key from 1Password and place in `~/.ssh/` directory. Verify the connection:
+```bash
+ssh -T git@github.com
+```
+
+### 5. iTerm2
+1. Install iTerm2:
+```bash
+brew install --cask iterm2
+```
+
+2. For iTerm2 configuration, check out my dedicated repository:
+[khushal-iterm2-config](https://github.com/khushal1198/khushal-iterm2-config)
+
+### 6. Cursor IDE
+1. Download Cursor from [https://cursor.sh](https://cursor.sh)
+2. Install and set up with your preferred settings
+
 ## Setup Sections
 
-(Documentation will be added as configurations are implemented)
+(More sections will be added as configurations are implemented)
 
 ## License
 
