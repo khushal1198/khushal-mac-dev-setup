@@ -114,6 +114,21 @@ export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:/opt/homebrew/bin:$PATH
 source ~/.zshrc
 ```
 
+### 3. Docker
+Install Docker Desktop for Mac:
+```bash
+brew install --cask docker
+```
+
+After installation:
+1. Launch Docker Desktop from your Applications folder
+2. Complete the initial setup and sign in to your Docker account
+3. Verify the installation:
+```bash
+docker --version
+docker run hello-world
+```
+
 ## Setup Sections
 
 (More sections will be added as configurations are implemented)
