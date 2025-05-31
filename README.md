@@ -74,6 +74,18 @@ brew install --cask iterm2
 1. Download Cursor from [https://cursor.sh](https://cursor.sh)
 2. Install and set up with your preferred settings
 
+### 7. Rectangle
+1. Install Rectangle using Homebrew:
+```bash
+brew install --cask rectangle
+```
+
+2. After installation:
+   - Launch Rectangle from your Applications folder
+   - The app will run in the menu bar
+   - Use keyboard shortcuts or drag windows to screen edges to snap them
+   - Default shortcuts can be customized in Rectangle preferences
+
 ## Development Tools
 
 ### 1. Python 3.11
